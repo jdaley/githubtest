@@ -14,3 +14,11 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: app-a
+          path: apps/app-a/dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: app-b
+          path: apps/app-b/dist
