@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Shared library",
   "private": true,
+  "main": "dist/index.js",
   "scripts": {},
   "dependencies": {},
   "devDependencies": {}
