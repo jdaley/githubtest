@@ -1,0 +1,10 @@
+{
+  "name": "app-a",
+  "version": "1.0.0-local",
+  "description": "App A",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
